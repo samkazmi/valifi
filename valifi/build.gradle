@@ -1,9 +1,11 @@
 final VERSION_MAJOR = 1 // max two digits
 final VERSION_MINOR = 4 // max two digits
-final VERSION_PATCH = 1 // max two digits
+final VERSION_PATCH = 2 // max two digits
 final VERSION_BUILD = 0 // max three digits
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.samkazmi'
 // whether the project is built on dev machine or CI
 def isLocalBuild = project.file('../local.properties').exists()
 
