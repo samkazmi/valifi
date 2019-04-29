@@ -11,20 +11,20 @@ ext {
 	bintrayRepo = 'maven'
 	bintrayName = 'valifi'
 
-	publishedGroupId = 'com.mlykotom'
+	publishedGroupId = 'com.samkazi'
 	libraryName = 'ValiFi'
 	artifact = 'valifi'
 
 	libraryDescription = 'Android validation library for data binding'
 
-	siteUrl = 'https://github.com/mlykotom/valifi'
-	gitUrl = 'https://github.com/mlykotom/valifi.git'
+	siteUrl = 'https://github.com/samkazmi/valifi'
+	gitUrl = 'https://github.com/samkazmi/valifi.git'
 
 	libraryVersion = "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}"
 
-	developerId = 'mlykotom'
-	developerName = 'Tomas Mlynaric'
-	developerEmail = 'mlynarict@gmail.com'
+	developerId = 'samkazmi'
+	developerName = 'Samkazmi'
+	developerEmail = 'samkazmi50@gmail.com'
 
 	licenseName = 'The Apache Software License, Version 2.0'
 	licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
